@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+</head>
+<body>
+	<h1>MP3 Player</h1>
+	<form action="process-music.php" method="GET">
+		<label for="song">Song:</label>
+		<select id="song" name="song">
+			<option value="song1">Song 1</option>
+			<option value="song2">Song 2</option>
+			<option value="song3">Song 3</option>
+			<option value="song4">Song 4</option>
+		</select><br><br>
+		
+		<label for="volume">Volume:</label>
+		<input type="range" id="volume" name="vol" min="10" max="80" value="40"><br><br>
+		
+		<input type="submit" value="Play">
+	</form>
+</body>
+</html>
